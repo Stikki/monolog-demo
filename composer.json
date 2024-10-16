@@ -1,0 +1,18 @@
+{
+    "name": "stikki/logger",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Stikki\\Logger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "stikki",
+            "email": "tapio.loytty@crasman.fi"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.7"
+    }
+}
